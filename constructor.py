@@ -11,7 +11,7 @@ class student:
     @staticmethod #the use of static is that ke it ensure that if the function do not use the data member of class we use staic method
     def getgret(self) :
         print("good morning")
-    def __init__(self):
+    def __init__(self):# dunder method which is automatically callled when the object is crreated
         print("i am creating a object")
         
      
